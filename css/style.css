@@ -1,4 +1,5 @@
     @charset "utf-8";
+    @media screen and (max-width: 479px);
     .eyecatch {
         margin: 80px auto 0px;
         width: 65%;
@@ -37,9 +38,8 @@
     }
     
     .castle img {
-        width: 40%;
-        padding: 0px 0px 0px 70px;
-        margin: 40px 0 30px 100px;
+        width: 50%;
+        margin: 40px 0 30px 50px;
     }
     
     .event {
@@ -50,7 +50,7 @@
     }
     
     .member__list {
-        font-size: 28px;
+        font-size: 24px;
         text-align: center;
         margin: 40px;
     }
