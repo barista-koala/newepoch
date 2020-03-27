@@ -1,5 +1,7 @@
     @charset "utf-8";
     .eyecatch {
+        margin: 80px auto 0px;
+        width: 65%;
         text-align: center;
     }
     
@@ -8,67 +10,71 @@
         height: 50%;
     }
     
-    .main {
+    .l-main {
         max-width: 1200px;
         margin: 0 auto;
-        background-color: rgb(244, 250, 249);
     }
     
     .title {
         text-align: center;
-        font-size: 80px;
-        margin: 30px 0px 30px 0px;
+        font-size: 28px;
+        margin: 30px 0px 15px 0px;
         padding: 30px 0px;
     }
     
     .description {
-        width: 100%;
+        width: 70%;
         max-width: 924px;
         margin: 0 auto;
-        font-size: 28px;
+        font-size: 16px;
+        line-height: 1.8;
     }
     
     .about {
         display: flex;
+        align-items: center;
+        width: 80%;
     }
     
     .castle img {
-        width: 75%;
-        margin: 100px 0 50px 0;
+        width: 40%;
+        padding: 0px 0px 0px 70px;
+        margin: 40px 0 30px 100px;
     }
     
     .event {
         text-align: left;
-        padding: 160px 0 50px 0;
-        font-size: 26px;
-        font-weight: bold;
+        line-height: 1.5;
+        padding: 30px 0 20px 0;
+        font-size: 18px;
     }
     
-    .members-introduction h2 {
-        font-size: 60px;
+    .member__list {
+        font-size: 28px;
         text-align: center;
         margin: 40px;
     }
     
     .members {
         display: flex;
+        width: 80%;
+        margin: 0 auto;
         justify-content: space-around;
-        font-size: 40px;
         text-align: center;
     }
     
-    .members-item p {
+    .members__item p {
         margin: 10px;
     }
     
-    .members-item img {
-        width: 80%;
+    .members__item img {
+        width: 60%;
     }
     
     .form {
         text-align: center;
-        font-size: 50px;
-        margin: 50px;
+        font-size: 30px;
+        margin: 40px;
     }
     
     .box13 {
